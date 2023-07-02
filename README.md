@@ -18,8 +18,8 @@ Die Operatoren werden, anders als bei C# wie Parameter geschrieben. Hierbei gibt
 |-ge| grösser oder gleich|
 
 Code:
-'''
-$DataLog = "C:\Users\rebec\OneDrive\Dokumente\DataLog_M122.txt"
+
+```$DataLog = "C:\Users\rebec\OneDrive\Dokumente\DataLog_M122.txt"
 $Date= Get-Date
 $catch = $true
 
@@ -51,8 +51,7 @@ $catch = $true
 }
 }
 Add-Content $DataLog -Value " $date $desicion "
-
-'''
+```
 Wie man sehen kann, sind die Vergleichsoperatoren immer mit einem - vorher. Die anderen Operatoren, wie zum Beispiel =, sind hier Zuweisungsoperatoren für Variablen.
 
 **Reflexion:**
